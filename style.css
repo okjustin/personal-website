@@ -1,0 +1,46 @@
+body {
+    background-color: #2d2d2d;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #f4511e;
+    font-size: 48px;
+    margin-top: 80px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 16px;
+    }
+    footer p {
+      font-size: 12px;
+    }
+  }
+  
