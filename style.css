@@ -7,11 +7,9 @@ body {
 }
 
 section {
-  /* height: 100vh; */
   padding: 3rem 10rem 0 10rem;
   scroll-margin-top: 3rem;
 }
-
 
 h1 {
   font-size: 10rem;
