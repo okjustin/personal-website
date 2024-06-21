@@ -7,6 +7,7 @@ body {
 }
 
 section {
+  min-height: 100vh;
   padding: 3rem 10rem 0 10rem;
   scroll-margin-top: 3rem;
 }
