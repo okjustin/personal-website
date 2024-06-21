@@ -8,16 +8,25 @@ body {
 
 section {
   height: 100vh;
-  padding: 0 10rem;
+  padding: 3rem 10rem 0 10rem;
+  scroll-margin-top: 3rem;
 }
 
 
-#me > h1 {
+h1 {
   font-size: 10rem;
 }
 
-#me > h2 {
+h2 {
   font-size: 6rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+li {
+  font-size: 2rem;
 }
 
 nav {
@@ -26,21 +35,18 @@ nav {
   padding: 1rem;
   position: sticky;
   top: 0;
-  background-color: #24292e;
+  background-color: rgba(36, 41, 46, 0.8);
   z-index: 100;
-  backdrop-filter: blur(10px) opacity(0.8);
+  backdrop-filter: blur(10px);
 }
 
+
 a {
-  text-decoration: none;
   color: white;
 }
 
-a:visited {
-  color: wite;
-}
-
 nav > a {
+  text-decoration: none;
   font-size: 2rem;
   margin: 0 3rem
 }
