@@ -7,7 +7,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 3rem 10rem 0 10rem;
   scroll-margin-top: 3rem;
 }
@@ -19,6 +19,10 @@ h1 {
 
 h2 {
   font-size: 6rem;
+}
+
+h3 {
+  font-size: 4rem;
 }
 
 p {
@@ -49,4 +53,23 @@ nav > a {
   text-decoration: none;
   font-size: 2rem;
   margin: 0 3rem
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.card {
+  background-color: #2f363d;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(36, 41, 46, 0.8);
 }
