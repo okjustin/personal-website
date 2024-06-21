@@ -56,8 +56,6 @@ a {
 
 .menu {
   display: flex;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 }
 
 .menu-toggle {
@@ -158,6 +156,8 @@ footer {
     top: 4rem;
     left: 0;
     z-index: 99;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .menu > a {
