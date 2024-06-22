@@ -9,7 +9,7 @@ body {
 section {
   min-height: 100vh;
   padding: 0 10rem;
-  scroll-margin-top: 3rem;
+  scroll-margin-top: 2rem;
 }
 
 h1 {
@@ -102,7 +102,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: 0 2rem;
+    padding: 1rem 2rem 0 2rem;
   }
 
   h1 {
