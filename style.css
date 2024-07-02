@@ -107,6 +107,36 @@ footer {
   background-color: rgba(36, 41, 46, 0.8);
 }
 
+
+/* Carousel */
+@keyframes slide {
+  from {
+    transform: translateX(0)
+  }
+
+  to {
+    transform: translateX(-100%)
+  }
+}
+
+.carousel {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+}
+
+.carousel-slide {
+  display: inline-block;
+  animation: 30s slide infinite linear;
+}
+
+.carousel-slide img {
+  height: 300px;
+  margin: 0 40px;
+}
+
+
+
 /* Responsiveness */
 
 @media screen and (max-width: 768px) {
