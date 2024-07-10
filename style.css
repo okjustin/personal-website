@@ -30,12 +30,7 @@ p {
 }
 
 li {
-  list-style: none;
   font-size: 2rem;
-}
-
-li:before {
-  content: "\2192 \0020";
 }
 
 nav {
