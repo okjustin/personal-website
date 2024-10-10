@@ -76,36 +76,6 @@ a {
   border-radius: 0.125rem;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-  grid-gap: 2rem;
-}
-
-.card {
-  background-color: #2f363d;
-  border-radius: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
-  margin: 0;
-}
-
-.card img {
-  width: 100%;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
-.card div {
-  padding: 2rem;
-}
-
-.card p {
-  font-size: 1.5rem;
-}
-
 footer {
   text-align: center;
   padding: 1rem;
