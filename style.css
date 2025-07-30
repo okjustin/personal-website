@@ -32,6 +32,15 @@ li {
   font-size: 2rem;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner p {
+  font-size: 1.5rem;
+}
+
 nav {
   display: flex;
   justify-content: right;
