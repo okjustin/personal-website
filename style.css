@@ -8,38 +8,34 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 0 5rem;
-  scroll-margin-top: 7.5rem;
+  padding: 5rem;
 }
 
 h1 {
-  font-size: 5rem;
-}
-
-h2 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3em;
+}
+
 h3 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 li {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .banner {
   display: flex;
   justify-content: center;
   padding: 1rem;
-}
-
-.banner p {
-  font-size: 1.5rem;
+  background-color: rgba(255, 165, 0, 0.8);
 }
 
 nav {
@@ -48,7 +44,7 @@ nav {
   padding: 2rem;
   position: sticky;
   top: 0;
-  background-color: rgb(36, 41, 46);
+  background-color: rgba(36, 41, 46, 0.8);
 }
 
 a {
@@ -57,13 +53,12 @@ a {
 
 .menu > a {
   text-decoration: none;
-  font-size: 2rem;
-  gap: 3rem;
+  font-size: 1rem;
 }
 
 .menu {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .menu-toggle {
@@ -84,6 +79,53 @@ a {
   height: 0.25rem;
   background-color: white;
   border-radius: 0.125rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: rgb(46, 48, 50);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.card button {
+  width: 100%;
+}
+
+button {
+  background-color: rgb(36, 41, 46);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(46, 48, 50);
+}
+
+button:disabled:hover {
+  background-color: rgb(36, 41, 46);
+  cursor: default;
 }
 
 footer {
