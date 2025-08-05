@@ -53,6 +53,15 @@ a {
 .menu > a {
   text-decoration: none;
   font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.menu > a:hover {
+  color: rgb(179, 179, 179);
+}
+
+.menu > a:active {
+  color: rgb(121, 121, 121);
 }
 
 .menu {
@@ -105,6 +114,20 @@ a {
 
 .card button {
   width: 100%;
+}
+
+.text-card {
+  background-color: rgb(46, 48, 50);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 button {
