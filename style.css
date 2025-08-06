@@ -130,7 +130,7 @@ a {
   color: rgb(179, 179, 179);
 }
 
-button {
+button, .button {
   background-color: rgb(27, 30, 33);
   font-family: monospace;
   color: white;
@@ -141,13 +141,21 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+button:hover, .button:hover {
   background-color: rgb(46, 48, 50);
 }
 
-button:disabled:hover {
+button:active, .button:active {
+  background-color: rgb(66, 68, 70);
+}
+
+button:disabled:hover, .button:disabled:hover {
   background-color: rgb(27, 30, 33);
   cursor: default;
+}
+
+a.button {
+  text-decoration: none;
 }
 
 footer {
